@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class = "container-fluid">
+    <div class="row text-center">
+        <div class="col" style="padding-top: 10%;">
+            <h1 style="color: #ffffff;">Original Image</h1>
+            <img src="{{ path  }}" alt="">
+        </div>
+        <div class="col" style="padding-top: 10%;">
+            <h1 style="color: #ffffff;">Edge Detected Image</h1>
+        <img src="/media/images/output.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- <p>{{ path }}</p> -->
+
+{% endblock %}

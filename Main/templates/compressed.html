@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class = "container-fluid">
+    <div class="row text-center">
+        <div class="col" style="padding-top: 10%;">
+            <h1 style="color: #ffffff;">Original Image</h1>
+            <img src="{{ path  }}" alt="">
+        </div>
+        <div class="col" style="padding-top: 10%;">
+            <h1 style="color: #ffffff;">Compressed Image</h1>
+        <img src="/media/images/output.png" alt="">
+        </div>
+    </div>
+    <!-- <p class="text-white">{{ loc2 }}</p>
+    <p class="text-white">{{ loc1 }}</p> -->
+
+</div>
+
+
+{% endblock %}
